@@ -202,5 +202,4 @@ def right(robot):
 #forward(1,0)
 #turn90(1)
 
-stop(0)
 
