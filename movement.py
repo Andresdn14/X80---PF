@@ -46,13 +46,17 @@ def whatFace(rob,dx,dy,faceD):
     print("faceD calc = ", faceD)
     return faceD
 
-rx,ry = [1,1,0,1,0,0],[1,2,2,3,4,3]
-
+#rx,ry = [1,1,0,1,0],[1,2,2,3,4]
+rx,ry = [1],[0]
+#rx,ry = [4.0, 4.0, 4.0, 4.0, 3.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0],[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0]
+#rx.reverse()
+#ry.reverse()
+print(rx)
 x80 = robot()
 x80.x = 0
 x80.y = 0
 x80.face = 1
-x80.id = 0
+x80.id = 1
 
 movement(x80,rx,ry)
 

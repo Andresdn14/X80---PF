@@ -33,7 +33,7 @@ def mov(robot,faceD):
             print("90º derecha")
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("90º derecha")
@@ -49,7 +49,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 6:
             print("90º IZQUIERDA")
@@ -63,8 +63,7 @@ def mov(robot,faceD):
             print("90º IZQUIERDA")
             x80.turn90(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
-            print("La del error")
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("45º IZQUIERDA")
@@ -91,7 +90,7 @@ def mov(robot,faceD):
             print("45º derecha")
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("90º derecha")
@@ -105,7 +104,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 6:
             print("90º derecha")
@@ -121,7 +120,7 @@ def mov(robot,faceD):
             x80.turn90(rid,1)
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("90º IZQUIERDA")
@@ -148,7 +147,7 @@ def mov(robot,faceD):
         if destiny == 3:
             print("0º")
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("45º derecha")
@@ -160,7 +159,7 @@ def mov(robot,faceD):
             print("90º derecha")
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 6:
             print("90º derecha")
@@ -176,7 +175,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("90º IZQUIERDA")
@@ -208,7 +207,7 @@ def mov(robot,faceD):
             print("45º IZQUIERDA")
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("0º")
@@ -219,7 +218,7 @@ def mov(robot,faceD):
             print("45º derecha")
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 6:
             print("90º derecha")
@@ -233,7 +232,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("90º derecha")
@@ -267,7 +266,7 @@ def mov(robot,faceD):
             print("90º IZQUIERDA")
             x80.turn90(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 4:
             print("45º IZQUIERDA")
@@ -278,7 +277,7 @@ def mov(robot,faceD):
         if destiny == 5:
             print("0º")
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 6:
             print("45º derecha")
@@ -290,7 +289,7 @@ def mov(robot,faceD):
             print("90º derecha")
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("90º derecha")
@@ -326,7 +325,7 @@ def mov(robot,faceD):
             x80.turn90(rid,1)
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("90º IZQUIERDA")
@@ -338,7 +337,7 @@ def mov(robot,faceD):
             print("45º IZQUIERDA")
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 6:
             print("0º")
@@ -349,7 +348,7 @@ def mov(robot,faceD):
             print("45º derecha")
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("90º derecha")
@@ -381,7 +380,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn90(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 4:
             print("90º IZQUIERDA")
@@ -395,7 +394,7 @@ def mov(robot,faceD):
             print("90º IZQUIERDA")
             x80.turn90(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 6:
             print("45º IZQUIERDA")
@@ -406,7 +405,7 @@ def mov(robot,faceD):
         if destiny == 7:
             print("0º")
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 8:
             print("45º derecha")
@@ -436,7 +435,7 @@ def mov(robot,faceD):
             x80.turn90(rid,0)
             x80.turn45(rid,0)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny
         if destiny == 4:
             print("90º derecha")
@@ -452,7 +451,7 @@ def mov(robot,faceD):
             x80.turn90(rid,1)
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 6:
             print("90º IZQUIERDA")
@@ -464,7 +463,7 @@ def mov(robot,faceD):
             print("45º IZQUIERDA")
             x80.turn45(rid,1)
             print("Forward Corto")
-            x80.forward(rid,1)
+            x80.forward2(rid,1)
             robot.face = destiny 
         if destiny == 8:
             print("0º")
